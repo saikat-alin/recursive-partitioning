@@ -1,0 +1,41 @@
+.container {
+  display: relative;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.partition {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; Optional: for visual separation */
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  display: flex;
+  gap: 5px;
+}
+
+.react-resizable {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
